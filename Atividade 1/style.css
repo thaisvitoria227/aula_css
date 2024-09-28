@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.titulo {
+    color: #32b9cd
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b602
+}
+.navbar a {
+    color: #e3b602;
+    text-decoration: none;
+}
+
+.banner {
+    height: 400px;
+    width: 100%;
+    background-image: url("bg-jelly-fish-para-home.png");
+    }
+
+.banner .container {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.banner .container p {
+    color: white;
+    margin: 0;
+    font-size: 28px;
+    width: 170px;
+}
+
+.banner .container p span {
+    font-weight: bold;
+}
+
+.social {
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+
+.social .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.boxes {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box h4 {
+    margin: 0;
+    margin-top: 10px;
+    color: blueviolet;
+}
+
+.box img {
+    width: 120px;
+    height: 120px;
+}
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #32b9cd;
+}
+
+.footer .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer .container h4 {
+    margin-bottom: 0;
+}
+
+/* Login */
+
+.login  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        background-image: url(bg-jelly-fish-para-home.png);
+        text-align: center;  
+}
+
+.login .container .campo {
+    color: rgb(246, 105, 161);
+}
+
+.login .container h2 {
+    color: rgb(246, 105, 161);
+
+}
+
+.login .card.card-login {
+    height: 250px;
+    width: 700px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-underline-position: above;
+}
+
+
+.login .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.card-login {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.card-login h2 {
+    margin-bottom: 10px;
+    color: #ff69b4; 
+    font-size: 40px;
+    margin-top: 1px;
+}
+
+.campo {
+    margin-bottom: 10px;
+}
+
+   .campo span {
+        display: block;
+        font-size: 1.1em;
+        margin-bottom: 5px;
+        color: #ff69b4;
+        text-align: left; 
+    }
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00bfff; 
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+}
+
+.campo input:focus {
+    border-color: #ff1493;
+}
+
+.botao {
+    width: 180px;
+    padding: 10px;
+    background-color: #d81862;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.botao:hover {
+    background-color: #ff1493;
+}
+
+
+/* Login */
+
+.login .card.card-cadastro {
+    height: 470px;
+    width: 700px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-underline-position: center;
+    margin-bottom: 50px;
+}
+
+.login .formulario {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+}
+
+.login input {
+    width: 570px;
+}
+
+.login .formulario .campo span {
+    padding-left: 55px;
+    font-weight: bold;
+    
+}
